@@ -1,0 +1,5 @@
+FROM debian:buster-slim
+COPY target/release/helloworld-server .
+COPY target/release/helloworld-client .
+EXPOSE 50051
+CMD ./helloworld-server
