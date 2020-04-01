@@ -20,6 +20,6 @@ Response should look something like the following
 ```
 docker logs tonic_helloworld_client   
 
-RESPONSE=Response { metadata: MetadataMap { headers: {"content-type": "application/grpc", "date": "Thu, 19 Mar 2020 21:09:38 GMT", "grpc-status": "0"} }, message: HelloReply { message: "Hello Tonic!" } }
+RESPONSE=Response { metadata: MetadataMap { headers: {"content-type": "application/grpc", "date": "Wed, 01 Apr 2020 21:22:56 GMT", "grpc-status": "0"} }, message: HelloReply { message: "Hello Tonic!" } }
 
 ```
