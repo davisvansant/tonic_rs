@@ -15,9 +15,9 @@ name = "helloworld-client"
 path = "src/client.rs"
 
 [dependencies]
-tonic = "0.1.1"
+tonic = "0.2.0"
 prost = "0.6.1"
-tokio = { version = "0.2.13", features = ["macros"] }
+tokio = { version = "0.2.14", features = ["macros"] }
 
 [build-dependencies]
-tonic-build = "0.1.1"
+tonic-build = "0.2.0"
